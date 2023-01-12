@@ -18,3 +18,14 @@ print(df)
 #DataFrme a partir de un array
 df2= pd.DataFrame(np.random.rand(4,3), columns=['a','b','c'])
 print(df2)
+
+print(df.describe()) #describe cada elemento o estadisticas de resumen para columnas numericas
+
+print(len(df.index)) #muestra lel index
+print(df.corr()) #correlacion
+print(df.count()) #numeros no nulos
+print(df.max()) #maximo
+print(df.min()) #minimo
+#print(df.median()) #mediana
+
+
