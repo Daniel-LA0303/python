@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn import linear_model
 import matplotlib.pyplot as plt
 
-datos = pd.read_csv(".ipynb_checkpoints/Datos/ingreso.csv")
+datos = pd.read_csv("Datos/ingreso.csv")
 datos
 
 plt.ylabel("Ingreso ($)")

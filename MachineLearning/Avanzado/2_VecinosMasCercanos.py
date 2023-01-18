@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn import preprocessing
 from sklearn.neighbors import KNeighborsClassifier
 
-clientes = pd.read_csv(".ipynb_checkpoints/Datos/creditos.csv")
+clientes = pd.read_csv("Datos/creditos.csv")
 #print(clientes)
 
 """contruir un modelo para saber si un vecino va 
